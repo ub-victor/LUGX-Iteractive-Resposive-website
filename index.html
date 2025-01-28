@@ -9,30 +9,36 @@
 <body class="bg-blue-500">  
 
     <!-- Header Section -->  
-    <header class="bg-blue-600 text-white p-4">  
-        <div class="container mx-auto flex justify-between items-center">  
-            <h1 class="text-2xl font-bold">LUGX</h1>  
-            <nav>  
-                <ul class="flex space-x-4">  
-                    <li><a href="#" class="hover:underline">Home</a></li>  
-                    <li><a href="#" class="hover:underline">Our Shop</a></li>  
-                    <li><a href="#" class="hover:underline">Product Details</a></li>  
-                    <li><a href="#" class="hover:underline">Contact Us</a></li>  
-                </ul>  
-            </nav>  
-        </div>  
-    </header>  
+    <header class="flex justify-between items-center bg-blue-500 p-4">  
+      <div class="flex items-center">  
+          <img src="img/10001.png" alt="logos" class="w-10 h-10 mr-2">  
+          <span class="text-white text-2xl font-bold">LUGX</span>  
+      </div>  
+      <nav class="flex items-center">  
+          <ul class="flex space-x-4">  
+              <li><a href="#" class="text-white hover:bg-blue-400 py-2 px-4 rounded">Home</a></li>  
+              <li><a href="#" class="text-white hover:bg-blue-400 py-2 px-4 rounded">Our Shop</a></li>  
+              <li><a href="#" class="text-white hover:bg-blue-400 py-2 px-4 rounded">Product Details</a></li>  
+              <li><a href="#" class="text-white hover:bg-blue-400 py-2 px-4 rounded">Contact Us</a></li>  
+          </ul>  
+          <a href="#" class="bg-red-500 text-white py-2 px-4 rounded ml-4 hover:bg-red-600">SIGN IN</a>  
+      </nav>  
+    </header>
 
     <!-- Hero Section -->  
-    <section class="bg-blue-500 text-white text-center py-20">  
-        <h2 class="text-4xl font-bold">Welcome to LUGX</h2>  
-        <p class="mt-4">Best Gaming Site Ever!</p>  
-        <input type="text" placeholder="Type Something" class="mt-6 p-2 rounded-md"/>  
-        <button class="bg-pink-600 text-white px-4 py-2 rounded-md mt-2">Search Now</button>  
+    <section class="bg-blue-600 text-white text-center py-20">  
+        <div class="container mx-auto">  
+            <h2 class="text-4xl font-bold">Welcome to LUGX</h2>  
+            <p class="mt-4">Best Gaming Site Ever!</p>  
+            <div class="mt-6">  
+                <input type="text" placeholder="Type Something" class="p-2 rounded-md border-2 border-gray-300"/>  
+                <button class="bg-pink-600 text-white px-4 py-2 rounded-md ml-2">Search Now</button>  
+            </div>  
+        </div>  
     </section>  
 
     <!-- Features Section -->  
-    <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8">  
+    <section class="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 p-8">  
         <div class="bg-white p-6 rounded-lg shadow-lg">  
             <h3 class="text-lg font-bold">OUR SHOP</h3>  
             <p class="mt-2 text-gray-600">Go Pre-Order Buy & Get Best Prices For You!</p>  
@@ -54,17 +60,28 @@
     <!-- Categories Section -->  
     <section class="container mx-auto p-8">  
         <h2 class="text-2xl font-bold mb-4">Top Categories</h2>  
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">  
-            <div class="bg-blue-300 p-4 rounded-lg">  
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">  
+            <div class="bg-gray-200 p-4 rounded-lg text-center">  
                 <h4 class="font-semibold">Action</h4>  
-                <img src="path/to/image.jpg" alt="Game Image" class="rounded mt-2" />  
+                <img src="path/to/image1.jpg" alt="Action Game" class="rounded mt-2" />  
             </div>  
-            <!-- Repeat for more categories -->  
+            <div class="bg-gray-200 p-4 rounded-lg text-center">  
+                <h4 class="font-semibold">Adventure</h4>  
+                <img src="path/to/image2.jpg" alt="Adventure Game" class="rounded mt-2" />  
+            </div>  
+            <div class="bg-gray-200 p-4 rounded-lg text-center">  
+                <h4 class="font-semibold">Strategy</h4>  
+                <img src="path/to/image3.jpg" alt="Strategy Game" class="rounded mt-2" />  
+            </div>  
+            <div class="bg-gray-200 p-4 rounded-lg text-center">  
+                <h4 class="font-semibold">RPG</h4>  
+                <img src="path/to/image4.jpg" alt="RPG Game" class="rounded mt-2" />  
+            </div>  
         </div>  
     </section>  
 
     <!-- Footer Section -->  
-    <footer class="bg-blue-600 text-white text-center py-4">  
+    <footer class="bg-gray-900 text-white text-center py-4">  
         <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. Design: TemplateMo</p>  
     </footer>  
 
