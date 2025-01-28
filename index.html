@@ -1,99 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="dist/styles.css"/>
-    <title>Document</title>
-  </head>
-  <body>
-    <!--Preloader Start-->
-    <div >
-      <div>
-        <nav>
-          <a href="index.html"><img src="img/10001.png" alt="logo"></a>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Our Shop</a></li>
-            <li><a href="#">Product Details</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Sign In</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!--End header-->
-      <div>
-        <div class="col-span-6 align-self-center">
-          <div>
-            <h6>Welcome to Lugx</h6>
-            <h2>"BEST GAMING SITE EVER!</h2>
-            <P>
-              "LUGX Gaming is free Bootstrap 5 HTML CSS website
-               template for your gaming websites. You can download and 
-               use this layout for commercial purposes. Please tell 
-               your friends about TemplateMo."
-            </P>
-            <div class="search-input">
-              <form id="search" action="#">
-                <input type="text" placeholder="Type something" id="searchText" name="searchKeyword" onkeypress="handle"/>
-                <button role="button">Search Now</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <img src="img/10002.jpg" alt="Photo"/>
-          <span>$22</span>
-          <span>-$22</span>
-        </div>
-      </div>
-      <div>
-        <div>
-            <div>
-              <a href="#">
-                <div>
-                  <img src="/img/10003.png" alt="">
-                    <h4>Free Storage</h4>
-                </div>
-              </a>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8"/>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+    <link rel="stylesheet" href="dist/styles.css"/>  
+    <title>LUGX Gaming</title>  
+</head>  
+<body class="bg-blue-500">  
+
+    <!-- Header Section -->  
+    <header class="bg-blue-600 text-white p-4">  
+        <div class="container mx-auto flex justify-between items-center">  
+            <h1 class="text-2xl font-bold">LUGX</h1>  
+            <nav>  
+                <ul class="flex space-x-4">  
+                    <li><a href="#" class="hover:underline">Home</a></li>  
+                    <li><a href="#" class="hover:underline">Our Shop</a></li>  
+                    <li><a href="#" class="hover:underline">Product Details</a></li>  
+                    <li><a href="#" class="hover:underline">Contact Us</a></li>  
+                </ul>  
+            </nav>  
+        </div>  
+    </header>  
+
+    <!-- Hero Section -->  
+    <section class="bg-blue-500 text-white text-center py-20">  
+        <h2 class="text-4xl font-bold">Welcome to LUGX</h2>  
+        <p class="mt-4">Best Gaming Site Ever!</p>  
+        <input type="text" placeholder="Type Something" class="mt-6 p-2 rounded-md"/>  
+        <button class="bg-pink-600 text-white px-4 py-2 rounded-md mt-2">Search Now</button>  
+    </section>  
+
+    <!-- Features Section -->  
+    <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8">  
+        <div class="bg-white p-6 rounded-lg shadow-lg">  
+            <h3 class="text-lg font-bold">OUR SHOP</h3>  
+            <p class="mt-2 text-gray-600">Go Pre-Order Buy & Get Best Prices For You!</p>  
+            <button class="bg-pink-600 text-white px-4 py-2 rounded-md mt-4">Shop Now</button>  
+        </div>  
+        <div class="bg-white p-6 rounded-lg shadow-lg">  
+            <h3 class="text-lg font-bold">NEWSLETTER</h3>  
+            <p class="mt-2 text-gray-600">Get Up To $100 Off Just Buy Subscribe Newsletter!</p>  
+            <input type="text" placeholder="Your email..." class="mt-4 p-2 border rounded-md w-full"/>  
+            <button class="bg-pink-600 text-white px-4 py-2 rounded-md mt-2">Subscribe Now</button>  
+        </div>  
+        <div class="bg-white p-6 rounded-lg shadow-lg">  
+            <h3 class="text-lg font-bold">TRENDING GAMES</h3>  
+            <p class="mt-2 text-gray-600">Explore the best trending games!</p>  
+            <button class="bg-pink-600 text-white px-4 py-2 rounded-md mt-4">View All</button>  
+        </div>  
+    </section>  
+
+    <!-- Categories Section -->  
+    <section class="container mx-auto p-8">  
+        <h2 class="text-2xl font-bold mb-4">Top Categories</h2>  
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">  
+            <div class="bg-blue-300 p-4 rounded-lg">  
+                <h4 class="font-semibold">Action</h4>  
+                <img src="path/to/image.jpg" alt="Game Image" class="rounded mt-2" />  
             </div>  
-          </div>
-          <div>
-            <div>
-              <a href="#">
-                <div>
-                  <img src="/img/10004.png" alt="">
-                    <h4>User More</h4>
-                </div>
-              </a>
-            </div>  
-          </div>
-          <div>
-            <div>
-              <a href="#">
-                <div>
-                  <img src="/img/10005.png" alt="">
-                    <h4>Reply Ready</h4>
-                </div>
-              </a>
-            </div>  
-          </div>
-          <div>
-            <div>
-              <a href="#">
-                <div>
-                  <img src="/img/10006.png" alt="">
-                    <h4>Easy Layout</h4>
-                </div>
-              </a>
-            </div>  
-          </div>
-          
-        </div>
-      </div>
-    </div>
-    <script src="src/script.js"></script>
-  </body>
+            <!-- Repeat for more categories -->  
+        </div>  
+    </section>  
+
+    <!-- Footer Section -->  
+    <footer class="bg-blue-600 text-white text-center py-4">  
+        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. Design: TemplateMo</p>  
+    </footer>  
+
+    <script src="src/script.js"></script>  
+</body>  
 </html>
